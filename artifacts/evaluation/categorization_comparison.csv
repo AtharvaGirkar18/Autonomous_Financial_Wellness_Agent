@@ -1,0 +1,4 @@
+method,accuracy,precision,recall,f1
+rule_based,0.7961,0.7716,0.7961,0.7742
+ml,1.0,1.0,1.0,1.0
+hybrid,1.0,1.0,1.0,1.0

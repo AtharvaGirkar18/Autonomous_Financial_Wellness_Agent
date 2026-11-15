@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+financial_wellness.db
+.pytest_cache/
+.mypy_cache/
+artifacts/guardrail_audit.jsonl
+artifacts/reports/_capture_baseline.py
+artifacts/reports/baseline_before.json
+docs/_report_artifact.md
+docs/build_project_report.py
+docs/build_teacher_guide.py
+docs/Autonomous_Financial_Wellness_Agent_Project_Report.docx

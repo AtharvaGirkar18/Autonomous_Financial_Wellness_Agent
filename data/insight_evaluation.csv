@@ -1,0 +1,7 @@
+case,question,expected_insight,expected_keywords
+rising_spending,Why did my expenses increase?,Identify an increasing spending category supported by historical category totals/trend evidence.,"spending,upward"
+car_affordability,Can I afford a ₹12 lakh car?,Calculate deterministic EMI and explain savings/cash-buffer impact.,"emi,savings"
+save_more,"How can I save ₹5,000 more per month?",Identify discretionary reductions supported by observed category spend.,"₹5,000,discretionary"
+anomaly,Show me unusual transactions.,Report at least one anomaly supported by anomaly evidence.,"transaction,flagged"
+forecast,What could my balance look like next month?,Report deterministic projected balance risk and date.,"balance,forecast"
+investment_readiness,Am I investment ready?,Return a readiness level based on financial-health measures without recommending securities.,investment readiness

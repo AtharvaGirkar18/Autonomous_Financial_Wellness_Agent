@@ -1,0 +1,19 @@
+transaction_id,user_id,date,description,merchant,amount,transaction_type,account_type,payment_mode,category,subcategory,is_recurring,is_anomaly,is_duplicate,is_subscription
+USER001-SUB-0-Netflix,USER001,2026-01-12,NETFLIX,Netflix,499.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,OTT,True,False,False,True
+USER001-SUB-0-Spotify,USER001,2026-01-12,SPOTIFY,Spotify,119.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,Music,True,False,False,True
+USER001-SUB-0-Amazon_Prime,USER001,2026-01-12,AMAZON PRIME,Amazon Prime,299.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,OTT,True,False,False,True
+USER001-SUB-1-Netflix,USER001,2026-02-12,NETFLIX,Netflix,499.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,OTT,True,False,False,True
+USER001-SUB-1-Spotify,USER001,2026-02-12,SPOTIFY,Spotify,119.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,Music,True,False,False,True
+USER001-SUB-1-Amazon_Prime,USER001,2026-02-12,AMAZON PRIME,Amazon Prime,299.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,OTT,True,False,False,True
+USER001-SUB-2-Netflix,USER001,2026-03-12,NETFLIX,Netflix,499.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,OTT,True,False,False,True
+USER001-SUB-2-Spotify,USER001,2026-03-12,SPOTIFY,Spotify,119.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,Music,True,False,False,True
+USER001-SUB-2-Amazon_Prime,USER001,2026-03-12,AMAZON PRIME,Amazon Prime,299.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,OTT,True,False,False,True
+USER001-SUB-3-Netflix,USER001,2026-04-12,NETFLIX,Netflix,499.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,OTT,True,False,False,True
+USER001-SUB-3-Spotify,USER001,2026-04-12,SPOTIFY,Spotify,119.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,Music,True,False,False,True
+USER001-SUB-3-Amazon_Prime,USER001,2026-04-12,AMAZON PRIME,Amazon Prime,299.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,OTT,True,False,False,True
+USER001-SUB-4-Netflix,USER001,2026-05-12,NETFLIX,Netflix,499.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,OTT,True,False,False,True
+USER001-SUB-4-Spotify,USER001,2026-05-12,SPOTIFY,Spotify,119.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,Music,True,False,False,True
+USER001-SUB-4-Amazon_Prime,USER001,2026-05-12,AMAZON PRIME,Amazon Prime,299.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,OTT,True,False,False,True
+USER001-SUB-5-Netflix,USER001,2026-06-12,NETFLIX,Netflix,499.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,OTT,True,False,False,True
+USER001-SUB-5-Spotify,USER001,2026-06-12,SPOTIFY,Spotify,119.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,Music,True,False,False,True
+USER001-SUB-5-Amazon_Prime,USER001,2026-06-12,AMAZON PRIME,Amazon Prime,299.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,OTT,True,False,False,True

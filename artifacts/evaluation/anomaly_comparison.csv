@@ -1,0 +1,3 @@
+method,precision,recall,f1
+anomaly,1.0,1.0,1.0
+duplicate,1.0,1.0,1.0

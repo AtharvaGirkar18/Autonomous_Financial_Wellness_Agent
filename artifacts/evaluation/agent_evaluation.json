@@ -1,0 +1,173 @@
+{
+  "cases": [
+    {
+      "case": "complete_analysis",
+      "planned_agents": [
+        "Ingestion",
+        "Categorization",
+        "Spending",
+        "Budget",
+        "Anomaly",
+        "Subscription",
+        "Forecast",
+        "Health",
+        "Financial Twin",
+        "Advisor",
+        "Reviewer"
+      ],
+      "planning_success": true,
+      "tool_selection_success": true,
+      "recommendation_grounded": true,
+      "grounding_rate": 1.0,
+      "correct": true,
+      "context_relevant": true,
+      "hallucination": false,
+      "reviewer_status": "PASSED",
+      "recommendation_count": 3
+    },
+    {
+      "case": "car_affordability",
+      "planned_agents": [
+        "Health",
+        "Forecast",
+        "Financial Twin",
+        "Advisor",
+        "Reviewer"
+      ],
+      "planning_success": true,
+      "tool_selection_success": true,
+      "recommendation_grounded": true,
+      "grounding_rate": 1.0,
+      "correct": true,
+      "context_relevant": true,
+      "hallucination": false,
+      "reviewer_status": "PASSED",
+      "recommendation_count": 2
+    },
+    {
+      "case": "save_more",
+      "planned_agents": [
+        "Spending",
+        "Budget",
+        "Health",
+        "Financial Twin",
+        "Advisor",
+        "Reviewer"
+      ],
+      "planning_success": true,
+      "tool_selection_success": true,
+      "recommendation_grounded": true,
+      "grounding_rate": 1.0,
+      "correct": true,
+      "context_relevant": true,
+      "hallucination": false,
+      "reviewer_status": "PASSED",
+      "recommendation_count": 2
+    },
+    {
+      "case": "anomaly_question",
+      "planned_agents": [
+        "Ingestion",
+        "Categorization",
+        "Spending",
+        "Budget",
+        "Anomaly",
+        "Subscription",
+        "Forecast",
+        "Health",
+        "Financial Twin",
+        "Advisor",
+        "Reviewer"
+      ],
+      "planning_success": true,
+      "tool_selection_success": true,
+      "recommendation_grounded": true,
+      "grounding_rate": 1.0,
+      "correct": true,
+      "context_relevant": true,
+      "hallucination": false,
+      "reviewer_status": "PASSED",
+      "recommendation_count": 3
+    },
+    {
+      "case": "forecast_question",
+      "planned_agents": [
+        "Forecast",
+        "Health",
+        "Financial Twin",
+        "Advisor",
+        "Reviewer"
+      ],
+      "planning_success": true,
+      "tool_selection_success": true,
+      "recommendation_grounded": true,
+      "grounding_rate": 1.0,
+      "correct": true,
+      "context_relevant": true,
+      "hallucination": false,
+      "reviewer_status": "PASSED",
+      "recommendation_count": 2
+    },
+    {
+      "case": "salary_change",
+      "planned_agents": [
+        "Health",
+        "Financial Twin",
+        "Advisor",
+        "Reviewer"
+      ],
+      "planning_success": true,
+      "tool_selection_success": true,
+      "recommendation_grounded": true,
+      "grounding_rate": 1.0,
+      "correct": true,
+      "context_relevant": true,
+      "hallucination": false,
+      "reviewer_status": "PASSED",
+      "recommendation_count": 1
+    },
+    {
+      "case": "investment_readiness",
+      "planned_agents": [
+        "Health",
+        "Investment Readiness",
+        "Financial Twin",
+        "Advisor",
+        "Reviewer"
+      ],
+      "planning_success": true,
+      "tool_selection_success": true,
+      "recommendation_grounded": true,
+      "grounding_rate": 1.0,
+      "correct": true,
+      "context_relevant": true,
+      "hallucination": false,
+      "reviewer_status": "PASSED",
+      "recommendation_count": 1
+    }
+  ],
+  "summary": {
+    "planning_success_rate": 1.0,
+    "tool_selection_success_rate": 1.0,
+    "grounded_recommendation_rate": 1.0,
+    "hallucination_rate_proxy": 0.0,
+    "correct_response_rate": 1.0,
+    "context_relevant_rate": 1.0
+  },
+  "reviewer_evaluation": {
+    "seeded_invalid_cases": 2,
+    "rejections": 2,
+    "rejection_rate": 1.0,
+    "cases": [
+      {
+        "name": "missing_required_output",
+        "rejected": true
+      },
+      {
+        "name": "unsupported_recommendation",
+        "rejected": true
+      }
+    ]
+  },
+  "interpretation": "Hallucination rate is a deterministic-mode proxy equal to the share of recommendations lacking evidence metadata; LLM semantic hallucination requires an LLM-backed evaluation set."
+}

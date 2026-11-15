@@ -1,0 +1,42 @@
+transaction_id,user_id,date,description,merchant,amount,transaction_type,account_type,payment_mode,category,subcategory,is_recurring,is_anomaly,is_duplicate,is_subscription
+RS-SAL-01,DEMO,2026-01-06,SALARY CREDIT INFOTECH PVT LTD,Employer,82000,CREDIT,BANK,NEFT,Salary / Income,Salary,True,False,False,False
+RS-RENT-01,DEMO,2026-01-01,RENT PAYMENT - KORAMANGALA,Landlord,22000,DEBIT,BANK,NEFT,Rent,House Rent,True,False,False,False
+RS-EMI-01,DEMO,2026-01-05,HDFC HOME LOAN EMI,HDFC Bank,14500,DEBIT,BANK,NACH,EMI / Debt,Home Loan EMI,True,False,False,False
+RS-FOOD-01,DEMO,2026-01-08,SWIGGY ORDER,Swiggy,620,DEBIT,BANK,UPI,Food & Dining,Food Delivery,False,False,False,False
+RS-FOOD-02,DEMO,2026-01-12,ZOMATO ORDER,Zomato,480,DEBIT,BANK,UPI,Food & Dining,Food Delivery,False,False,False,False
+RS-GROC-01,DEMO,2026-01-14,BIGBASKET GROCERIES,BigBasket,2800,DEBIT,BANK,UPI,Groceries,Online Grocery,False,False,False,False
+RS-FUEL-01,DEMO,2026-01-15,BPCL FUEL FILL,BPCL,3200,DEBIT,BANK,UPI,Fuel,Petrol,False,False,False,False
+RS-SUB-01,DEMO,2026-01-18,NETFLIX SUBSCRIPTION,Netflix,649,DEBIT,CREDIT_CARD,Card,Subscriptions,OTT,True,False,False,True
+RS-SUB-02,DEMO,2026-01-18,SPOTIFY PREMIUM,Spotify,119,DEBIT,CREDIT_CARD,Card,Subscriptions,Music,True,False,False,True
+RS-UTIL-01,DEMO,2026-01-20,BESCOM ELECTRICITY BILL,BESCOM,1850,DEBIT,BANK,UPI,Bills & Utilities,Electricity,True,False,False,False
+RS-FOOD-03,DEMO,2026-01-22,SWIGGY ORDER,Swiggy,540,DEBIT,BANK,UPI,Food & Dining,Food Delivery,False,False,False,False
+RS-SHOP-01,DEMO,2026-01-25,AMAZON SHOPPING,Amazon,3400,DEBIT,CREDIT_CARD,Card,Shopping,Online,False,False,False,False
+RS-FOOD-04,DEMO,2026-01-28,ZOMATO ORDER,Zomato,720,DEBIT,BANK,UPI,Food & Dining,Food Delivery,False,False,False,False
+RS-SAL-02,DEMO,2026-02-06,SALARY CREDIT INFOTECH PVT LTD,Employer,82000,CREDIT,BANK,NEFT,Salary / Income,Salary,True,False,False,False
+RS-RENT-02,DEMO,2026-02-01,RENT PAYMENT - KORAMANGALA,Landlord,22000,DEBIT,BANK,NEFT,Rent,House Rent,True,False,False,False
+RS-EMI-02,DEMO,2026-02-05,HDFC HOME LOAN EMI,HDFC Bank,14500,DEBIT,BANK,NACH,EMI / Debt,Home Loan EMI,True,False,False,False
+RS-FOOD-05,DEMO,2026-02-09,SWIGGY ORDER,Swiggy,890,DEBIT,BANK,UPI,Food & Dining,Food Delivery,False,False,False,False
+RS-FOOD-06,DEMO,2026-02-11,SWIGGY ORDER,Swiggy,1240,DEBIT,BANK,UPI,Food & Dining,Food Delivery,False,False,False,False
+RS-GROC-02,DEMO,2026-02-13,BIGBASKET GROCERIES,BigBasket,3100,DEBIT,BANK,UPI,Groceries,Online Grocery,False,False,False,False
+RS-SUB-03,DEMO,2026-02-18,NETFLIX SUBSCRIPTION,Netflix,649,DEBIT,CREDIT_CARD,Card,Subscriptions,OTT,True,False,False,True
+RS-SUB-04,DEMO,2026-02-18,SPOTIFY PREMIUM,Spotify,119,DEBIT,CREDIT_CARD,Card,Subscriptions,Music,True,False,False,True
+RS-UTIL-02,DEMO,2026-02-20,BESCOM ELECTRICITY BILL,BESCOM,2100,DEBIT,BANK,UPI,Bills & Utilities,Electricity,True,False,False,False
+RS-FOOD-07,DEMO,2026-02-21,ZOMATO ORDER,Zomato,980,DEBIT,BANK,UPI,Food & Dining,Food Delivery,False,False,False,False
+RS-FOOD-08,DEMO,2026-02-24,SWIGGY ORDER,Swiggy,1480,DEBIT,BANK,UPI,Food & Dining,Food Delivery,False,False,False,False
+RS-SHOP-02,DEMO,2026-02-26,MYNTRA SHOPPING,Myntra,2800,DEBIT,CREDIT_CARD,Card,Shopping,Clothing,False,False,False,False
+RS-FUEL-02,DEMO,2026-02-27,BPCL FUEL FILL,BPCL,3500,DEBIT,BANK,UPI,Fuel,Petrol,False,False,False,False
+RS-SAL-03,DEMO,2026-03-06,SALARY CREDIT INFOTECH PVT LTD,Employer,82000,CREDIT,BANK,NEFT,Salary / Income,Salary,True,False,False,False
+RS-RENT-03,DEMO,2026-03-01,RENT PAYMENT - KORAMANGALA,Landlord,22000,DEBIT,BANK,NEFT,Rent,House Rent,True,False,False,False
+RS-EMI-03,DEMO,2026-03-05,HDFC HOME LOAN EMI,HDFC Bank,14500,DEBIT,BANK,NACH,EMI / Debt,Home Loan EMI,True,False,False,False
+RS-FOOD-09,DEMO,2026-03-07,SWIGGY ORDER,Swiggy,1650,DEBIT,BANK,UPI,Food & Dining,Food Delivery,False,False,False,False
+RS-FOOD-10,DEMO,2026-03-10,ZOMATO ORDER,Zomato,2100,DEBIT,BANK,UPI,Food & Dining,Food Delivery,False,False,False,False
+RS-ANOM-01,DEMO,2026-03-12,INTERNATIONAL WIRE TRANSFER,Unknown Merchant,28000,DEBIT,BANK,NEFT,Transfer,Wire Transfer,False,True,False,False
+RS-GROC-03,DEMO,2026-03-14,BIGBASKET GROCERIES,BigBasket,2600,DEBIT,BANK,UPI,Groceries,Online Grocery,False,False,False,False
+RS-SUB-05,DEMO,2026-03-18,NETFLIX SUBSCRIPTION,Netflix,649,DEBIT,CREDIT_CARD,Card,Subscriptions,OTT,True,False,False,True
+RS-SUB-05D,DEMO,2026-03-18,NETFLIX SUBSCRIPTION,Netflix,649,DEBIT,CREDIT_CARD,Card,Subscriptions,OTT,True,False,True,True
+RS-SUB-06,DEMO,2026-03-18,SPOTIFY PREMIUM,Spotify,119,DEBIT,CREDIT_CARD,Card,Subscriptions,Music,True,False,False,True
+RS-UTIL-03,DEMO,2026-03-20,BESCOM ELECTRICITY BILL,BESCOM,2400,DEBIT,BANK,UPI,Bills & Utilities,Electricity,True,False,False,False
+RS-FOOD-11,DEMO,2026-03-22,SWIGGY ORDER,Swiggy,1900,DEBIT,BANK,UPI,Food & Dining,Food Delivery,False,False,False,False
+RS-FOOD-12,DEMO,2026-03-25,ZOMATO WEEKEND BINGE,Zomato,2600,DEBIT,BANK,UPI,Food & Dining,Food Delivery,False,False,False,False
+RS-MED-01,DEMO,2026-03-27,APOLLO PHARMACY,Apollo Pharmacy,1800,DEBIT,BANK,UPI,Healthcare,Medicine,False,False,False,False
+RS-SHOP-03,DEMO,2026-03-28,AMAZON SHOPPING,Amazon,5200,DEBIT,CREDIT_CARD,Card,Shopping,Online,False,False,False,False

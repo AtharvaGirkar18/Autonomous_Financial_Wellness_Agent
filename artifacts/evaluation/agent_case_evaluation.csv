@@ -1,0 +1,8 @@
+case,planned_agents,planning_success,tool_selection_success,recommendation_grounded,grounding_rate,correct,context_relevant,hallucination,reviewer_status,recommendation_count
+complete_analysis,"['Ingestion', 'Categorization', 'Spending', 'Budget', 'Anomaly', 'Subscription', 'Forecast', 'Health', 'Financial Twin', 'Advisor', 'Reviewer']",True,True,True,1.0,True,True,False,PASSED,3
+car_affordability,"['Health', 'Forecast', 'Financial Twin', 'Advisor', 'Reviewer']",True,True,True,1.0,True,True,False,PASSED,2
+save_more,"['Spending', 'Budget', 'Health', 'Financial Twin', 'Advisor', 'Reviewer']",True,True,True,1.0,True,True,False,PASSED,2
+anomaly_question,"['Ingestion', 'Categorization', 'Spending', 'Budget', 'Anomaly', 'Subscription', 'Forecast', 'Health', 'Financial Twin', 'Advisor', 'Reviewer']",True,True,True,1.0,True,True,False,PASSED,3
+forecast_question,"['Forecast', 'Health', 'Financial Twin', 'Advisor', 'Reviewer']",True,True,True,1.0,True,True,False,PASSED,2
+salary_change,"['Health', 'Financial Twin', 'Advisor', 'Reviewer']",True,True,True,1.0,True,True,False,PASSED,1
+investment_readiness,"['Health', 'Investment Readiness', 'Financial Twin', 'Advisor', 'Reviewer']",True,True,True,1.0,True,True,False,PASSED,1

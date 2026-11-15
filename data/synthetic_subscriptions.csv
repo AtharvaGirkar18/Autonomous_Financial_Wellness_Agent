@@ -1,0 +1,55 @@
+user_id,merchant,monthly_cost,observed_months,yearly_cost,recurring,usage_evidence
+USER001,Amazon Prime,299.0,6,3588.0,True,unavailable
+USER001,Netflix,499.0,6,5988.0,True,unavailable
+USER001,Spotify,119.0,6,1428.0,True,unavailable
+USER002,Amazon Prime,299.0,6,3588.0,True,unavailable
+USER002,Netflix,499.0,6,5988.0,True,unavailable
+USER002,Spotify,119.0,6,1428.0,True,unavailable
+USER003,Amazon Prime,299.0,6,3588.0,True,unavailable
+USER003,Netflix,499.0,6,5988.0,True,unavailable
+USER003,Spotify,119.0,6,1428.0,True,unavailable
+USER004,Amazon Prime,299.0,6,3588.0,True,unavailable
+USER004,Netflix,499.0,6,5988.0,True,unavailable
+USER004,Spotify,119.0,6,1428.0,True,unavailable
+USER005,Amazon Prime,299.0,6,3588.0,True,unavailable
+USER005,Netflix,499.0,6,5988.0,True,unavailable
+USER005,Spotify,119.0,6,1428.0,True,unavailable
+USER006,Amazon Prime,299.0,6,3588.0,True,unavailable
+USER006,Netflix,499.0,6,5988.0,True,unavailable
+USER006,Spotify,119.0,6,1428.0,True,unavailable
+USER007,Amazon Prime,299.0,6,3588.0,True,unavailable
+USER007,Netflix,499.0,6,5988.0,True,unavailable
+USER007,Spotify,119.0,6,1428.0,True,unavailable
+USER008,Amazon Prime,299.0,6,3588.0,True,unavailable
+USER008,Netflix,499.0,6,5988.0,True,unavailable
+USER008,Spotify,119.0,6,1428.0,True,unavailable
+USER009,Amazon Prime,299.0,6,3588.0,True,unavailable
+USER009,Netflix,499.0,6,5988.0,True,unavailable
+USER009,Spotify,119.0,6,1428.0,True,unavailable
+USER010,Amazon Prime,299.0,6,3588.0,True,unavailable
+USER010,Netflix,499.0,6,5988.0,True,unavailable
+USER010,Spotify,119.0,6,1428.0,True,unavailable
+USER011,Amazon Prime,299.0,6,3588.0,True,unavailable
+USER011,Netflix,499.0,6,5988.0,True,unavailable
+USER011,Spotify,119.0,6,1428.0,True,unavailable
+USER012,Amazon Prime,299.0,6,3588.0,True,unavailable
+USER012,Netflix,499.0,6,5988.0,True,unavailable
+USER012,Spotify,119.0,6,1428.0,True,unavailable
+USER013,Amazon Prime,299.0,6,3588.0,True,unavailable
+USER013,Netflix,499.0,6,5988.0,True,unavailable
+USER013,Spotify,119.0,6,1428.0,True,unavailable
+USER014,Amazon Prime,299.0,6,3588.0,True,unavailable
+USER014,Netflix,499.0,6,5988.0,True,unavailable
+USER014,Spotify,119.0,6,1428.0,True,unavailable
+USER015,Amazon Prime,299.0,6,3588.0,True,unavailable
+USER015,Netflix,499.0,6,5988.0,True,unavailable
+USER015,Spotify,119.0,6,1428.0,True,unavailable
+USER016,Amazon Prime,299.0,6,3588.0,True,unavailable
+USER016,Netflix,499.0,6,5988.0,True,unavailable
+USER016,Spotify,119.0,6,1428.0,True,unavailable
+USER017,Amazon Prime,299.0,6,3588.0,True,unavailable
+USER017,Netflix,499.0,6,5988.0,True,unavailable
+USER017,Spotify,119.0,6,1428.0,True,unavailable
+USER018,Amazon Prime,299.0,6,3588.0,True,unavailable
+USER018,Netflix,499.0,6,5988.0,True,unavailable
+USER018,Spotify,119.0,6,1428.0,True,unavailable

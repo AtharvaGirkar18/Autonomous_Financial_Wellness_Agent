@@ -1,0 +1,46 @@
+transaction_id,user_id,date,description,merchant,amount,transaction_type,account_type,payment_mode,category,subcategory,is_recurring,is_anomaly,is_duplicate,is_subscription
+USER001-SAL-0,USER001,2026-01-07,SALARY CREDIT,Salary,75000.0,CREDIT,BANK,NEFT,Salary / Income,Salary,True,False,False,False
+USER001-RENT-0,USER001,2026-01-02,MONTHLY RENT,Rent,18000.0,DEBIT,BANK,NACH,Rent,House Rent,True,False,False,False
+USER001-EMI-0,USER001,2026-01-08,HDFC EMI,HDFC,10000.0,DEBIT,BANK,NACH,EMI / Debt,EMI,True,False,False,False
+USER001-ELEC-0,USER001,2026-01-15,TATA POWER,Tata Power,1837.0,DEBIT,BANK,UPI,Bills & Utilities,Electricity,True,False,False,False
+USER001-TEL-0,USER001,2026-01-18,AIRTEL,Airtel,699.0,DEBIT,BANK,UPI,Bills & Utilities,Telecom,True,False,False,False
+USER001-TX-00-000,USER001,2026-01-01,MYNTRA,Myntra,1557.12,DEBIT,BANK,UPI,Shopping,Online,False,False,False,False
+USER001-TX-00-001,USER001,2026-01-05,MYNTRA,Myntra,3068.45,DEBIT,BANK,UPI,Shopping,Online,False,False,False,False
+USER001-TX-00-002,USER001,2026-01-18,SWIGGY,Swiggy,1071.27,DEBIT,BANK,UPI,Food & Dining,Food Delivery,False,False,False,False
+USER001-TX-00-003,USER001,2026-01-01,ZOMATO,Zomato,852.32,DEBIT,BANK,UPI,Food & Dining,Food Delivery,False,False,False,False
+USER001-TX-00-004,USER001,2026-01-20,SWIGGY,Swiggy,774.37,DEBIT,BANK,UPI,Food & Dining,Food Delivery,False,False,False,False
+USER001-TX-00-005,USER001,2026-01-21,RELIANCE TRENDS,Reliance Trends,2294.18,DEBIT,BANK,UPI,Shopping,Retail,False,False,False,False
+USER001-TX-00-006,USER001,2026-01-15,OLA,Ola,552.81,DEBIT,BANK,UPI,Transportation,Cab,False,False,False,False
+USER001-TX-00-007,USER001,2026-01-01,MYNTRA,Myntra,1258.81,DEBIT,BANK,UPI,Shopping,Online,False,False,False,False
+USER001-TX-00-008,USER001,2026-01-14,DMART,DMart,942.05,DEBIT,BANK,UPI,Groceries,Supermarket,False,False,False,False
+USER001-TX-00-009,USER001,2026-01-25,DMART,DMart,804.04,DEBIT,BANK,UPI,Groceries,Supermarket,False,False,False,False
+USER001-TX-00-010,USER001,2026-01-04,DMART,DMart,1356.7,DEBIT,BANK,UPI,Groceries,Supermarket,False,False,False,False
+USER001-TX-00-011,USER001,2026-01-09,PVR INOX,PVR INOX,1102.7,DEBIT,BANK,UPI,Entertainment,Movies,False,False,False,False
+USER001-TX-00-012,USER001,2026-01-18,ZOMATO,Zomato,1867.83,DEBIT,BANK,UPI,Food & Dining,Food Delivery,False,False,False,False
+USER001-TX-00-013,USER001,2026-01-03,UBER,Uber,606.17,DEBIT,BANK,UPI,Transportation,Cab,False,False,False,False
+USER001-TX-00-014,USER001,2026-01-20,LIC,LIC,3223.27,DEBIT,BANK,UPI,Insurance,Insurance Premium,False,False,False,False
+USER001-TX-00-015,USER001,2026-01-07,RELIANCE TRENDS,Reliance Trends,874.13,DEBIT,BANK,UPI,Shopping,Retail,False,False,False,False
+USER001-TX-00-016,USER001,2026-01-08,APOLLO PHARMACY,Apollo Pharmacy,2466.01,DEBIT,BANK,UPI,Healthcare,Medicine,False,False,False,False
+USER001-TX-00-017,USER001,2026-01-28,LOCAL CAFE,Local Cafe,434.21,DEBIT,BANK,UPI,Food & Dining,Cafe,False,False,False,False
+USER001-TX-00-018,USER001,2026-01-09,BIGBASKET,BigBasket,2785.28,DEBIT,BANK,UPI,Groceries,Grocery Delivery,False,False,False,False
+USER001-TX-00-019,USER001,2026-01-06,DMART,DMart,1060.92,DEBIT,BANK,UPI,Groceries,Supermarket,False,False,False,False
+USER001-TX-00-020,USER001,2026-01-09,RELIANCE TRENDS,Reliance Trends,3297.48,DEBIT,BANK,UPI,Shopping,Retail,False,False,False,False
+USER001-SUB-0-Netflix,USER001,2026-01-12,NETFLIX,Netflix,499.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,OTT,True,False,False,True
+USER001-SUB-0-Spotify,USER001,2026-01-12,SPOTIFY,Spotify,119.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,Music,True,False,False,True
+USER001-SUB-0-Amazon_Prime,USER001,2026-01-12,AMAZON PRIME,Amazon Prime,299.0,DEBIT,CREDIT_CARD,CARD,Subscriptions,OTT,True,False,False,True
+USER001-SAL-1,USER001,2026-02-07,SALARY CREDIT,Salary,75000.0,CREDIT,BANK,NEFT,Salary / Income,Salary,True,False,False,False
+USER001-RENT-1,USER001,2026-02-02,MONTHLY RENT,Rent,18000.0,DEBIT,BANK,NACH,Rent,House Rent,True,False,False,False
+USER001-EMI-1,USER001,2026-02-08,HDFC EMI,HDFC,10000.0,DEBIT,BANK,NACH,EMI / Debt,EMI,True,False,False,False
+USER001-ELEC-1,USER001,2026-02-15,TATA POWER,Tata Power,1816.0,DEBIT,BANK,UPI,Bills & Utilities,Electricity,True,False,False,False
+USER001-TEL-1,USER001,2026-02-18,AIRTEL,Airtel,699.0,DEBIT,BANK,UPI,Bills & Utilities,Telecom,True,False,False,False
+USER001-TX-01-000,USER001,2026-02-20,INDIANOIL,IndianOil,1761.45,DEBIT,BANK,UPI,Fuel,Petrol,False,False,False,False
+USER001-TX-01-001,USER001,2026-02-08,LOCAL CAFE,Local Cafe,5418.06,DEBIT,BANK,UPI,Food & Dining,Cafe,False,False,False,False
+USER001-TX-01-002,USER001,2026-02-21,RELIANCE TRENDS,Reliance Trends,1534.54,DEBIT,BANK,UPI,Shopping,Retail,False,False,False,False
+USER001-TX-01-003,USER001,2026-02-11,TATA POWER,Tata Power,2320.8,DEBIT,BANK,UPI,Bills & Utilities,Electricity,False,False,False,False
+USER001-TX-01-004,USER001,2026-02-08,PVR INOX,PVR INOX,1185.55,DEBIT,BANK,UPI,Entertainment,Movies,False,False,False,False
+USER001-TX-01-005,USER001,2026-02-13,DMART,DMart,1064.16,DEBIT,BANK,UPI,Groceries,Supermarket,False,False,False,False
+USER001-TX-01-006,USER001,2026-02-19,AIRTEL,Airtel,657.34,DEBIT,BANK,UPI,Bills & Utilities,Telecom,False,False,False,False
+USER001-TX-01-007,USER001,2026-02-21,UBER,Uber,636.58,DEBIT,BANK,UPI,Transportation,Cab,False,False,False,False
+USER001-TX-01-008,USER001,2026-02-21,BIGBASKET,BigBasket,1362.2,DEBIT,BANK,UPI,Groceries,Grocery Delivery,False,False,False,False
+USER001-TX-01-009,USER001,2026-02-08,MYNTRA,Myntra,2586.42,DEBIT,BANK,UPI,Shopping,Online,False,False,False,False
+USER001-TX-01-010,USER001,2026-02-24,OLA,Ola,597.89,DEBIT,BANK,UPI,Transportation,Cab,False,False,False,False

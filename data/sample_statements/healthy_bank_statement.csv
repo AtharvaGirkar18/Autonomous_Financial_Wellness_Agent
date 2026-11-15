@@ -1,0 +1,40 @@
+transaction_id,user_id,date,description,merchant,amount,transaction_type,account_type,payment_mode,category,is_recurring
+TXN-00001,USER001,2026-01-01,TechCorp Salary Credit,TechCorp Salary Credit,85000.0,CREDIT,BANK,NEFT,Salary / Income,True
+TXN-00002,USER001,2026-01-03,HDFC Auto Loan EMI,HDFC Auto Loan EMI,8500.0,DEBIT,BANK,NACH,EMI / Debt,True
+TXN-00003,USER001,2026-01-05,Urban Landlords Rent,Urban Landlords Rent,16000.0,DEBIT,BANK,NEFT,Rent,True
+TXN-00004,USER001,2026-01-08,BigBasket Fresh Groceries,BigBasket Fresh Groceries,4200.0,DEBIT,BANK,UPI,Groceries,False
+TXN-00005,USER001,2026-01-10,Tata Power Electricity Bill,Tata Power Electricity Bill,1850.0,DEBIT,BANK,UPI,Bills & Utilities,True
+TXN-00006,USER001,2026-01-12,Airtel Fiber Broadband,Airtel Fiber Broadband,999.0,DEBIT,BANK,UPI,Bills & Utilities,True
+TXN-00007,USER001,2026-01-14,Shell Fuel Station,Shell Fuel Station,2200.0,DEBIT,BANK,UPI,Fuel,False
+TXN-00008,USER001,2026-01-17,Swiggy Food Delivery,Swiggy Food Delivery,1450.0,DEBIT,BANK,UPI,Food & Dining,False
+TXN-00009,USER001,2026-01-20,DMart Supermarket Essentials,DMart Supermarket Essentials,3900.0,DEBIT,BANK,UPI,Groceries,False
+TXN-00010,USER001,2026-01-23,Amazon Retail Shopping,Amazon Retail Shopping,2300.0,DEBIT,BANK,UPI,Shopping,False
+TXN-00011,USER001,2026-01-26,Zomato Restaurant Dining,Zomato Restaurant Dining,1350.0,DEBIT,BANK,UPI,Food & Dining,False
+TXN-00012,USER001,2026-01-28,Netflix Standard Subscription,Netflix Standard Subscription,649.0,DEBIT,BANK,UPI,Subscription,True
+TXN-00013,USER001,2026-01-29,Spotify Music Premium,Spotify Music Premium,299.0,DEBIT,BANK,UPI,Subscription,True
+TXN-00014,USER001,2026-02-01,TechCorp Salary Credit,TechCorp Salary Credit,85000.0,CREDIT,BANK,NEFT,Salary / Income,True
+TXN-00015,USER001,2026-02-03,HDFC Auto Loan EMI,HDFC Auto Loan EMI,8500.0,DEBIT,BANK,NACH,EMI / Debt,True
+TXN-00016,USER001,2026-02-05,Urban Landlords Rent,Urban Landlords Rent,16000.0,DEBIT,BANK,NEFT,Rent,True
+TXN-00017,USER001,2026-02-08,BigBasket Fresh Groceries,BigBasket Fresh Groceries,4350.0,DEBIT,BANK,UPI,Groceries,False
+TXN-00018,USER001,2026-02-10,Tata Power Electricity Bill,Tata Power Electricity Bill,1780.0,DEBIT,BANK,UPI,Bills & Utilities,True
+TXN-00019,USER001,2026-02-12,Airtel Fiber Broadband,Airtel Fiber Broadband,999.0,DEBIT,BANK,UPI,Bills & Utilities,True
+TXN-00020,USER001,2026-02-14,Shell Fuel Station,Shell Fuel Station,2150.0,DEBIT,BANK,UPI,Fuel,False
+TXN-00021,USER001,2026-02-17,Swiggy Food Delivery,Swiggy Food Delivery,1520.0,DEBIT,BANK,UPI,Food & Dining,False
+TXN-00022,USER001,2026-02-20,DMart Supermarket Essentials,DMart Supermarket Essentials,3850.0,DEBIT,BANK,UPI,Groceries,False
+TXN-00023,USER001,2026-02-23,Zomato Restaurant Dining,Zomato Restaurant Dining,1400.0,DEBIT,BANK,UPI,Food & Dining,False
+TXN-00024,USER001,2026-02-26,Starbucks Coffee Reserve,Starbucks Coffee Reserve,750.0,DEBIT,BANK,UPI,Food & Dining,False
+TXN-00025,USER001,2026-02-27,Netflix Standard Subscription,Netflix Standard Subscription,649.0,DEBIT,BANK,UPI,Subscription,True
+TXN-00026,USER001,2026-02-28,Spotify Music Premium,Spotify Music Premium,299.0,DEBIT,BANK,UPI,Subscription,True
+TXN-00027,USER001,2026-03-01,TechCorp Salary Credit,TechCorp Salary Credit,85000.0,CREDIT,BANK,NEFT,Salary / Income,True
+TXN-00028,USER001,2026-03-03,HDFC Auto Loan EMI,HDFC Auto Loan EMI,8500.0,DEBIT,BANK,NACH,EMI / Debt,True
+TXN-00029,USER001,2026-03-05,Urban Landlords Rent,Urban Landlords Rent,16000.0,DEBIT,BANK,NEFT,Rent,True
+TXN-00030,USER001,2026-03-08,BigBasket Fresh Groceries,BigBasket Fresh Groceries,4150.0,DEBIT,BANK,UPI,Groceries,False
+TXN-00031,USER001,2026-03-10,Tata Power Electricity Bill,Tata Power Electricity Bill,1820.0,DEBIT,BANK,UPI,Bills & Utilities,True
+TXN-00032,USER001,2026-03-12,Airtel Fiber Broadband,Airtel Fiber Broadband,999.0,DEBIT,BANK,UPI,Bills & Utilities,True
+TXN-00033,USER001,2026-03-14,Shell Fuel Station,Shell Fuel Station,2300.0,DEBIT,BANK,UPI,Fuel,False
+TXN-00034,USER001,2026-03-17,Swiggy Food Delivery,Swiggy Food Delivery,1600.0,DEBIT,BANK,UPI,Food & Dining,False
+TXN-00035,USER001,2026-03-20,DMart Supermarket Essentials,DMart Supermarket Essentials,3950.0,DEBIT,BANK,UPI,Groceries,False
+TXN-00036,USER001,2026-03-23,Amazon Retail Shopping,Amazon Retail Shopping,2100.0,DEBIT,BANK,UPI,Shopping,False
+TXN-00037,USER001,2026-03-26,Zomato Restaurant Dining,Zomato Restaurant Dining,1300.0,DEBIT,BANK,UPI,Food & Dining,False
+TXN-00038,USER001,2026-03-28,Netflix Standard Subscription,Netflix Standard Subscription,649.0,DEBIT,BANK,UPI,Subscription,True
+TXN-00039,USER001,2026-03-29,Spotify Music Premium,Spotify Music Premium,299.0,DEBIT,BANK,UPI,Subscription,True

@@ -1,0 +1,42 @@
+{
+  "dataset": {
+    "rows": 3294,
+    "users": 18,
+    "months": 6,
+    "anomalies": 90,
+    "duplicates": 72,
+    "subscription_transaction_rows": 324
+  },
+  "demo": {
+    "user_id": "USER001",
+    "name": "Aarav Mehta",
+    "current_balance": 32000,
+    "monthly_income": 75000.0,
+    "monthly_expenses": 71731.36,
+    "monthly_savings": 3268.64,
+    "savings_rate_pct": 4.36,
+    "health_score": 30.37,
+    "debt_ratio_pct": 13.33,
+    "emergency_months": 0.71,
+    "subscriptions_detected": 3,
+    "anomalies_detected": 5,
+    "duplicate_candidates": 4,
+    "forecast_lowest_balance": 829.92,
+    "forecast_lowest_date": "2026-07-06",
+    "goal_status": "At Risk",
+    "goal_gap": 50731.36,
+    "alerts": 16,
+    "trace_steps": 13,
+    "reviewer_status": "PASSED",
+    "food_trend": {
+      "growth_3m": 0.1875,
+      "direction": "Increasing"
+    }
+  },
+  "scenarios": {
+    "car": "For a \u20b91,200,000 car with a 20% down payment, 9% annual rate and 60-month tenure, the estimated EMI is \u20b919,928. Your modeled monthly savings would change from approximately \u20b93,269 to \u20b9-16,659, so the purchase appears challenging because the modeled down payment exceeds the current cash buffer.\n\nProjected balance may fall to about \u20b9830. Consider reducing discretionary outflows before the projected low-balance date.",
+    "salary": "A \u20b915,000 monthly salary increase would raise modeled monthly savings capacity from approximately \u20b93,269 to \u20b918,269, assuming spending remains unchanged.\n\nTransportation spending is trending upward. Review the category and target the highest discretionary merchants before increasing other spending.\n\nReview the UNUSUAL MERCHANT 5 transaction of \u20b916,500; it was flagged as an unusual transaction pattern.\n\nProjected balance may fall to about \u20b9830. Consider reducing discretionary outflows before the projected low-balance date.",
+    "save": "To target approximately \u20b95,000 of additional monthly savings, the model identifies discretionary categories where a reduction of up to 25% could contribute about \u20b95,000. Other: ~\u20b95,000.\n\nTransportation spending is trending upward. Review the category and target the highest discretionary merchants before increasing other spending.",
+    "investment_readiness": "Investment readiness is currently Low. Readiness is based on emergency-fund coverage, debt burden, savings consistency and cash-flow stability. No individualized securities recommendation is provided."
+  }
+}
