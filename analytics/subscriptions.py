@@ -56,7 +56,7 @@ def detect_subscriptions(df: pd.DataFrame) -> list[dict]:
             "billing_frequency": frequency,
             "observed_months": int(g["date"].dt.to_period("M").nunique()),
             "usage_evidence": "unavailable",
-            "potentially_unused": True,
+            "potentially_unused": False,
             "evidence": evidence,
         })
     return sorted(out, key=lambda row: row["monthly_cost"], reverse=True)

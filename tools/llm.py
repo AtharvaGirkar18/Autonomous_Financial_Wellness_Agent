@@ -372,8 +372,13 @@ def invoke_text(system: str, user: str, *, purpose: str = "generic", max_tokens:
     # Attempt live upstream provider with a short timeout to prevent UI freezes
     try:
         future = _pool.submit(_call_provider, cfg, system, safe_user, max_tokens)
-        text = future.result(timeout=min(CALL_TIMEOUT_S, 8))
+        timeout = 60 if purpose == "subscription_usage" else min(CALL_TIMEOUT_S, 8)
+        text = future.result(timeout=timeout)
     except Exception as exc:
+        if purpose == "subscription_usage":
+            STATS["errors"] += 1
+            audit_event("llm", "MANUAL_REVIEW", purpose, "No usable upstream response")
+            return None
         if purpose == "advisor":
             # Advisor fallback copy must never inject stale hard-coded profile
             # numbers or an unrelated scenario. The advisor agent already has
@@ -387,6 +392,10 @@ def invoke_text(system: str, user: str, *, purpose: str = "generic", max_tokens:
         text = _synthetic_fallback(system, user, purpose, cfg)
 
     if not text or not text.strip():
+        if purpose == "subscription_usage":
+            STATS["errors"] += 1
+            audit_event("llm", "MANUAL_REVIEW", purpose, "No usable upstream response")
+            return None
         if purpose == "advisor":
             STATS["errors"] += 1
             STATS["last_error"] = "empty model response; using deterministic advisor output"

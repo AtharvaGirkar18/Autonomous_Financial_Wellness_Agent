@@ -77,6 +77,13 @@ class Subscription(Base):
     usage_evidence: Mapped[str] = mapped_column(String(50), default="unavailable")
 
 
+class SubscriptionReview(Base):
+    __tablename__ = "subscription_usage_reviews"
+    user_id: Mapped[str] = mapped_column(String(50), primary_key=True)
+    merchant: Mapped[str] = mapped_column(String(120), primary_key=True)
+    status: Mapped[str] = mapped_column(String(16))
+
+
 class Alert(Base):
     __tablename__ = "alerts"
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)

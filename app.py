@@ -17,6 +17,7 @@ from ui.dashboard import render_overview
 from ui.observability import render_trace
 from ui.simulations import render_simulations
 from ui.transactions import render_transactions
+from ui.subscriptions import render_subscriptions
 
 # Load .env (Ollama is keyless — no GOOGLE_API_KEY required for default config).
 load_dotenv(override=True)
@@ -164,7 +165,7 @@ if state is None:
     st.stop()
 
 st.title("💰 Autonomous Financial Wellness Agent")
-st.caption(f"Profile: {profile.get('name', user_id)} · Synthetic demonstration data")
+st.caption(f"Profile: {state.get('profile', {}).get('name', state['user_id'])} · Synthetic demonstration data")
 
 tabs = st.tabs([
     "Overview", "Transactions", "Spending Analysis", "Anomalies", "Subscriptions", "Budget",
@@ -189,8 +190,7 @@ with tabs[3]:
         st.subheader("Duplicate charge candidates")
         st.dataframe(duplicates, use_container_width=True, hide_index=True)
 with tabs[4]:
-    subscriptions = pd.DataFrame(state.get("subscriptions", []))
-    st.dataframe(subscriptions, use_container_width=True, hide_index=True)
+    render_subscriptions(state)
 with tabs[5]:
     budget_state = state.get("budget", {})
     budget_rows = pd.DataFrame(budget_state.get("rows", []))

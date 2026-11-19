@@ -37,7 +37,7 @@ def notification_node(state: dict) -> dict:
             alerts.append({
                 "severity": "MEDIUM",
                 "title": "Subscription review opportunity",
-                "explanation": f"Recurring subscriptions total approximately ₹{monthly:,.0f} per month; usage evidence is unavailable.",
+                "explanation": f"Recurring subscriptions total approximately ₹{monthly:,.0f} per month. Check your usage reviews on the Subscriptions tab.",
                 "recommended_action": "Review recurring services and cancel only those you no longer need.",
                 "timestamp": datetime.now(timezone.utc).replace(tzinfo=None).isoformat(),
             })

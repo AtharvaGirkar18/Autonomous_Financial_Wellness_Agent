@@ -339,9 +339,11 @@ def _deterministic_recommendations(s: dict) -> list[dict]:
         })
 
     if s.get("subscriptions") and "subscription" in request and not is_subscription_afford:
+        from agents.usage_review_agent import potential_savings
         monthly = sum(x["monthly_cost"] for x in s["subscriptions"])
+        potential, _ = potential_savings(s["subscriptions"])
         recs.append({
-            "text": f"Review recurring subscriptions totaling approximately ₹{monthly:,.0f} per month. Actual usage evidence is unavailable.",
+            "text": f"Review recurring subscriptions totaling approximately ₹{monthly:,.0f} per month. Services you marked unused account for ₹{potential:,.2f}/month in potential savings.",
             "evidence": {"monthly_subscription_cost": monthly, "subscriptions": s["subscriptions"]},
         })
 
